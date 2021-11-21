@@ -61,3 +61,38 @@ section:nth-child(4) {
 #indicator > div.active {
   transform: scale(1.6);
 }
+
+.post6 {
+  height: 200px;
+  width: 200px;
+  background-color: #379683;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.4);
+  margin-top: 50px;
+  color: #05386B;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.post2 {
+  height: 300px;
+  width: 300px;
+  background-color: #379683;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.4);
+  text-decoration: none;
+  color: #05386B;
+  margin: 20px;
+}
+
+.post8 {
+  height: 200px;
+  width: 200px;
+  background-color: #379683;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.4);
+  margin-top: 80px;
+  text-decoration: none;
+  color: #05386B;
+  margin: 20px;
+}
