@@ -1,0 +1,625 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Oxygen', 'Verdana', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -------------------  nav ------------------ */
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+/* -------------------  home ------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.fixed {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wrapper-title {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.aboutMe {
+    position: relative;
+    top: 100vh;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    justify-content: space-between;
+    background: #8EE4AF url("../images/dementia-wellington-mockup.jpg") no-repeat center center;
+    background-size: contain;
+    min-height: 500px;
+}
+
+.no-touch .section1 {
+    background-attachment: fixed;
+}
+
+.blogPosts {
+    position: relative;
+    top: 100vh;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    justify-content: space-between;
+    background: #379683 url("../images/evrentals-mockup.jpg") no-repeat center center;
+    min-height: 500px;
+    background-size: contain;
+}
+
+.no-touch .section2 {
+    background-attachment: fixed;
+}
+
+.contact {
+    position: relative;
+    top: 100vh;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    justify-content: space-between;
+    background: #05386B url("../images/prelude-mockup.jpg") no-repeat center center;
+    min-height: 500px;
+    background-size: contain;
+}
+
+.no-touch .section3 {
+    background-attachment: fixed;
+}
+
+.section4 {
+    position: relative;
+    top: 100vh;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    justify-content: space-between;
+    background-color: #d5dfeb;
+    background: #d5dfeb url("../images/freedom-calculator-mockup.jpg") no-repeat center center;
+    min-height: 500px;
+    background-size: contain;
+}
+
+.no-touch .section4 {
+    background-attachment: fixed;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    overflow: visible;
+    padding: 0 10vw 0 15vw;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.col {
+    padding: 0;
+}
+
+.parallax-section {
+    position: relative;
+    width: 100%;
+    top: 100vh;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: #c2c880;
+}
+
+.parallax-child-section {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#frontlashID {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
+}
+
+.fw-main-row {
+    background-attachment: scroll;
+    background-image: url("../images/smartmockups_kq09gp1k.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+/* -------------------  footer ------------------ */
+
+.footer {
+    background-color: white;
+}
+
+.footerPostition {
+    position: relative;
+    top: 100vh;
+}
+
+.backToTop {
+    height: 250px;
+    font-size: 20px;
+    border-left: 4px solid white;
+}
+
+.backToTop:hover {
+    cursor: pointer;
+}
+
+.fa-arrow-up {
+    margin-bottom: 15px;
+}
+
+.footerText {
+    height: 250px;
+
+}
+
+.topBtn {
+    writing-mode: vertical-rl;
+    color: black;
+}
+
+.topBtn p {
+    margin: 0 6px 0 0;
+    line-height: 0;
+}
+
+.aboutContent {
+    height: auto;
+    width: 50%;
+    color: #343a40;
+}
+
+
+.socialIcons {
+    list-style: none;
+    padding-left: 6rem;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    color: black;
+}
+
+.socialIcons i {
+    padding: 15px;
+    margin: 10px;
+}
+
+.socialIcons li {
+    display: inline;
+}
+
+.socialIcons a:hover {
+    color: grey;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: grey;
+}
+
+
+.emailbtm,
+.phonebtm,
+.locationbtm {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding: 0;
+}
+
+.site-info h6 {
+    margin: 0;
+}
+
+.backToTop p:hover {
+    color: grey;
+}
+
+.backToTop i:hover {
+    color: grey;
+}
+
+span.rev {
+    unicode-bidi: bidi-override;
+    direction: rtl
+}
+
+span.rev.email:before {
+    content: "moc.etisbew"
+}
+
+span.rev.email:after {
+    content: "@nhoj :liamE"
+}
+
+span.rev.phone:before {
+    content: "3866 913 "
+}
+
+span.rev.phone:after {
+    content: " 46+"
+}
+
+
+
+/* -------------------  About ------------------ */
+
+
+.languages {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.languages li {
+    display: inline;
+}
+
+.languages i {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.programs {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.programs li {
+    display: inline;
+}
+
+.programs i {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.programs a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.cv_download {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cv_download li {
+    display: inline;
+}
+
+.cv_download i {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+.cv_download a {
+    color: black;
+}
+
+.cv_download a:hover {
+    color: grey;
+}
+
+.ul_trade_me {
+    margin-top: -50px;
+}
+
+.trade_me_link:hover {
+    opacity: 0.6;
+}
+
+
+
+
+.aboutSection {
+    margin-top: 58px;
+    display: flex;
+    height: 500px;
+    padding: 0;
+    justify-content: space-between;
+    background-color: rgb(220, 222, 224);
+    background-image: url("../images/pexels-negative-space-160107.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutBackground {
+    height: 500px;
+    padding: 0 10vw;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+
+.programs,
+.languages,
+.cv_download {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+
+.myForm {
+    padding: 5rem 0 3rem 0;
+}
+
+.form-control {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+.about,
+.languageExp,
+.programSkills,
+.education,
+.work {
+    margin-bottom: 50px;
+}
+
+/* -------------------  construction page ------------------ */
+
+
+
+.right {
+    background-color: #d8fcf8;
+}
+
+.rightComnet {
+    background-color: #c2c880;
+}
+
+.constructionImage {
+    box-shadow: 2px 2px 20px #aaaaaa;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    width: 30vw;
+    height: auto;
+}
+
+.backgroundConstruction {
+    background-color: white;
+    min-height: 100vh;
+    overflow: visible;
+    /* width: 50vw; */
+    padding: 0 10vw 0 15vw 0;
+    align-items: center;
+    color: black;
+}
+
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.constructionContent p {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .aboutBackground {
+        padding: 0 3vw 0 6vw;
+    }
+
+    .constructionImage {
+        top: 300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutBackground {
+        padding: 0 3vw 0 6vw;
+    }
+
+    .constructionImage {
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .fixed {
+        padding-bottom: 13vh;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .socialIcons {
+        padding-left: 3rem;
+    }
+
+    .aboutContent {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .background {
+        padding: 0 3vw 0 6vw;
+    }
+
+    .aboutInfo h1 {
+        font-size: 24px;
+    }
+
+    .constructionImage {
+        right: 100px;
+        top: 100px;
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+    .socialIcons {
+        padding-left: 0;
+    }
+
+    .aboutInfo h1 {
+        font-size: 18px;
+    }
+
+    .aboutInfo p {
+        font-size: 14px;
+    }
+
+    .constructionImage {
+        right: 50px;
+        top: 100px;
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .contactFormContainer {
+        width: 50%;
+    }
+}
+
+/* -------------------  acknowledgements ------------------ */
+.acknowledgementsLink {
+    color: white;
+    text-decoration: none;
+}
+
+.acknowledgementsLink:hover {
+    color: grey;
+}
+
+.acknowledgementsHeading {
+    color: white;
+    text-decoration: none;
+}
+
+.acknowledgementsHeading:hover {
+    color: grey;
+}
+
+
+/* dark mode testing */
+
+p, h1, h2, h3, h4, h5, li, a, i, .fa {
+    color: white;
+}
+
+nav {
+    background-color: #292b2c;
+}
+
+.about, .languageExp, .programSkills, .education, .work, .aboutContent, body, .footer {
+    background-color: #5CDB95;
+}
+
+.cv_download li a img, .programs li a img {
+    filter: invert(1);
+}
+
+label, pre, blockquote, q, .languages li i, .ScrollButton, .here {
+    color: white;
+}
+
+.form-control {
+    background: #343a40;
+    color: white;
+    border-color: white;
+}
