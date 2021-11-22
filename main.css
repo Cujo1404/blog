@@ -1,6 +1,10 @@
 body {
 	margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #wrap {
@@ -95,4 +99,50 @@ a {
   text-decoration: none;
   color: #05386B;
   margin: 20px;
+}
+
+
+.myForm {
+  padding: 5rem 0 3rem 0;
+}
+
+.form-control {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-radius: 30px;
+  background-color: #EDF5E1;
+}
+
+textarea {
+  height: 100px;
+}
+
+.frame-area {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: 350px;
+  height: 600px;
+  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: auto;
+  padding: 0px;
+
+  }
+
+  .formBorder {
+    border-right: 5px solid #EDF5E1;
+  }
+
+  li a {
+    color: #05386B; 
+    padding-right: 20px;
+}
+li a:hover {
+  color: #05386B; 
+  padding-right: 20px;
+}
+
+.sendButton {
+  background-color: #EDF5E1;
+   color: #05386B;
 }
