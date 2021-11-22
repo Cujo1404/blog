@@ -31,99 +31,176 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <!-- css -->
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="main.css" type="text/css">
   <!-- menu icon -->
   <link href="dist/hamburgers.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- nav -->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background: #5CDB95" id="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html" title="Click to go to the home page">Alexander Little</a>
-      <button class="navbar-toggler hamburger hamburger--spring" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="about.htm" title="Click to go to the about page">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="blog.html"
-              title="Click to go to the home page">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.htm" title="Click to go to the contact page">Contact</a>
-          </li>
-          <!-- <li class="nav-item" id="sun">
-            <button class="nav-link" href="" title="Click to toggle night mode" onclick="lightMode()"><i class="fas fa-sun"></i></button>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="" title="Click to toggle light mode"><i id="moon" class="fas fa-moon"></i></a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
 
 
-  <!-- welcome message -->
-  <header class="">
-    <div class="wrapper-title container">
-      <h1>Here is my blog</h1>
-      <p>Created by me, for me</p>
-      <a href="blog.htm">blog</a>
-      <div class="pageDots">
-
-      </div>
-    </div>
-  </header>
-
-
-
-  <!-- aboutMe -->
-  <section class="aboutMe" id="aboutMe" aria-label="ABout me">
-    <div class="container-fluid">
-      <div class="row">
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- blogPosts -->
-  <section class="blogPosts" aria-label="blog posts">
-    <div class="container-fluid">
-      <div class="row">
-
-      </div>
-    </div>
-  </section>
-
-  <!-- contact -->
-
-  <section class="contact" aria-label="contact section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-
+  <div class="wrap">
+    <div id="wrap">
+  	<section class="welcome" id="section1">  <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+          <div class="container">
+            <a class="navbar-brand" href="index.html" title="Click to go to the home page">Alexander Little</a>
+            <button class="navbar-toggler hamburger hamburger--spring" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li><a target="_blank" aria-label="instagram link, click to open my instagram in a new tab"
+                    href="https://www.instagram.com/arlittledesign/"><i class="fab fa-2x fa-instagram text-center"
+                      title="Click to open my instagram profile"></i></a></li>
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://www.arlittledesign.com" title="Click to visit my Portfolio">Portfolio</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#section2" title="Click to go to the about page">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#section3"
+                    title="Click to go to the home page">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section4" title="Click to go to the contact page">Contact</a>
+                </li> -->
+                <!-- <li class="nav-item" id="sun">
+                  <button class="nav-link" href="" title="Click to toggle night mode" onclick="lightMode()"><i class="fas fa-sun"></i></button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="" title="Click to toggle light mode"><i id="moon" class="fas fa-moon"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+            <h1 class="" style="color: #EDF5E1; font-size: 9vw; padding-left: 100px; padding-top:  200px; font-weight: bold;">Here is my blog</h1>
+            <h2 style="color: #EDF5E1; font-size: 3vw; padding-left: 100px;">Created by me, for me</h2>
         </div>
-        <div class="col"></div>
-      </div>
-    </div>
-  </section>
+      </section>
 
+  	<section class="aboutMe" id="section2" aria-label="ABout me">
+        <div class="container">
+            <p class="" style="color: #EDF5E1; font-size: 9vw; text-align: center; font-weight: bold;">About me</p>
+            <div class="" style="height:450px;width:35%;overflow:auto;scrollbar-base-color:blue;padding:10px;margin: auto; line-height: 2;">
+                <!-- <p style="color: #05386B;">Kia ora koutou katoa. Good day to all. I am Alex. I have previous 
+                    interest in cars, computer repairs, gaming, and arts, I can combine these interests to move forward 
+                    into a digital world where scribes no longer work with a chisel on stone, but keyboards to immortalise 
+                    ideas. Lesh go friends! Kia kaha whānau aroha nui. With great care, stay strong family.
+                    <br><br>
+                    When I'm not coding or pushing pixels, you'll find me exploring the Greater Wellington Region on 
+                    foot or straining my eyes repairing vintage computers.</p> -->
+                    <p style="color: #05386B;">Kia ora koutou katoa, my name is Alexander Little, most other humans 
+                        call me Alex. I'm currently located in Wellington, New Zealand and will be attending the Wellington 
+                        campus bootcamp along with the Kāhu cohort at the beginning of 2022.
+                        I've had many part time jobs and studied a range of topics from being a trolley boy, picking 
+                        flowers to real estate and mechainics. My interests currently include, hiking, rock climbing, 
+                        walking, cooking (+ eating), video games, and growing my aloe vera plants. I'm still not quite sure where 
+                        life is taking me but I trust my gut each step of the way, because everything happens for a 
+                        reason right? Ethical values are strong with me, I just like helping people. 
+                        I keep my virtues close and my sins in check.
+                        <br><br>
+                        I'm attending Dev Academy to:<br>
+                        A. make new friends (hopefully)<br>
+                        B. increase practical skill level for potention employment opotunites in the future. <br>
+                        C. and more importantly work on my human skills too.</p>
 
-  <!-- <div class="col-2 col-sm-2	col-md-2 col-lg-1	col-xl-1 backToTop d-flex align-items-center text-center"
-  onclick="topFunction()" id="myBtn">
-  <div class="topBtn text-center mx-auto" title="Click to auto scroll to top">
-    <p><i class="fas fa-arrow-up"></i>BACK TO TOP</p>
+            </div>
+        </div>
+
+      </section>
+
+  	<section class="blogPosts" id="section3" aria-label="blog posts">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <p class="" style="color: #EDF5E1; font-size: 9vw; text-align: left; font-weight: bold;">Blog things</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="blogPost3.htm">
+                        <div class="post6">
+                            <p style="color: #EDF5E1;">Blog post about learning things</p>
+                            <p style="color: #EDF5E1; font-size: 9vw; text-align: left; font-weight: bold;">#3</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="blogPost2.htm">
+                        <div class="post2">
+                            <p style="color: #EDF5E1;">Blog post about learning things</p>
+                            <p style="color: #EDF5E1; font-size: 18vw; text-align: left; font-weight: bold;">#2</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="blogPost1.htm">
+                        <div class="post8">
+                            <p style="color: #EDF5E1;">What are the differences between relative, absolute, and fixed positioning?</p>
+                            <p style="color: #EDF5E1; font-size: 9vw; text-align: left; font-weight: bold;">#1</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+
+            </div>
+            </div>
+        </div>
+        </section>
+      
+  	    <section class="contact" id="section4" aria-label="contact section">
+            <div class="container">
+            <div class="row">
+                <div class="col formBorder">
+                    <iframe name="Framename" src="https://www.arlittledesign.com" width="400" height="200" frameborder="0" scrolling="auto" class="frame-area">
+                    </iframe>
+                <p style="color: #EDF5E1; font-size: 9vw; text-align: center;">Contact</p>
+                </div>
+                <div class="col">
+                  <!-- contact form -->
+                    <div class="container contactFormContainer">
+                        <div class="myForm">
+                        <h2 class="text-center">Send me a greeting and a smile!<br />or just some suggestions, I appreciate your feedback 🙂</h2>
+                        </div>
+                        <form class="myForm p-5" id="section-2" action="https://formsubmit.co/dd40a3728dc7221bb0e3663faa106e9d"
+                        method="POST" autocomplete="on">
+                        <div class="mb-3">
+                            <label for="InputName1" class="form-label">Title given at birth or chosen title</label>
+                            <input type="text" name="name" class="form-control" id="InputName1" placeholder="Jane Doe"
+                            aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputEmail1" class="form-label">Electronic Mail Signature</label>
+                            <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                            placeholder="janedoe@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="validationTextarea" name="message" placeholder="Insert sociallly acceptable greeting here and write something interesting please...."></textarea>
+                        </div>
+                        <div class="mb-3 form-check float-end">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label me-3" for="exampleCheck1">Please confirm you’re not a (dumb) AI</label>
+                            <button type="submit" class="btn sendButton float-end" value="Send Form">Send to cyberspace <i class="fas fa-paper-plane"></i></button>
+                        </div>
+                        <input type="hidden" name="_next" value="http://www.arlittledesign.com/thanks.htm">
+                        <input type="hidden" name="_subject" value="Enquiry - arlittle design">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
   </div>
-</div> -->
+</div>
 
   <!-- copyright footer -->
   <footer id="colophon" style="background: #5CDB95" class="site-footer footerPostition">
@@ -147,7 +224,8 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/1e8e15da08.js" crossorigin="anonymous"></script>
   <!-- javascript -->
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
+  <script src="fullpage-scroll.js"></script>
 </body>
 
 </html>
